@@ -48,7 +48,6 @@ text-align: center;
 
 }
 
-
 .link.current::after {
 position: absolute;
 
@@ -78,8 +77,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 
-    
 }
+
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -263,9 +262,28 @@ align-items: center;
 
 .visual-foto-list {
     flex-basis: calc((100% - 60px)/3);
+   
+}
+.about-visual-foto {
+    position: relative;
 }
 
- 
+.visual-foto-overlay {
+position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--primary-background-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 27px;
+    padding-bottom:27px;
+}
+
 .section-footer
 {
     background-color: var(--dark-background-color);
